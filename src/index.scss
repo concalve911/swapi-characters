@@ -1,0 +1,16 @@
+@use "./components/characterList.style.scss";
+@use "./components/footer.style.scss";
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
